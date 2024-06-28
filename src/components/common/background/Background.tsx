@@ -5,8 +5,6 @@ type IBackgroundProps = {
   color: string;
 };
 
-//wefwefwefewfew
-
 const Background = (props: IBackgroundProps) => (
   <div className={props.color}>{props.children}</div>
 );
